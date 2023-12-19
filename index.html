@@ -1,0 +1,10 @@
+<script>
+fetch('https://script.google.com/macros/s/AKfycbyl71sOEuNYK1n21tL31mKXVwy823FoDeGFdk5F784Vl3o14g_nqAFB5WXDLYLZX0oQ/exec')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    // Process the retrieved data as needed
+  })
+  .catch(error => console.error('Error fetching data:', error));
+
+</script>
